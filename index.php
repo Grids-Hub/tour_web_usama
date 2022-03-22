@@ -5,8 +5,8 @@
  <?php $head = get_field('head'); ?>
 <header>
   <div class="head">
-<img src="<?php echo get_template_directory_uri().'/assets/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
-      <img src="<?php echo get_template_directory_uri().'/assets/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
+<img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
+      <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
 
       <div class="row">
         <div class="col-xl-5 col-lg-5 col-md-12 head-menu swap-h">
@@ -130,8 +130,8 @@
 <?php $descrp = get_field('descrp');?>
 <section class="descrp">
       <div class="container-fluid">
-        <img src="<?php echo get_template_directory_uri().'/assets/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
-        <img src="<?php echo get_template_directory_uri().'/assets/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
+        <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
+        <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
 
         <!-- '/assets/img/plus_sign.svg'
         '/assets/img/green-circle-fade.svg' -->
@@ -165,9 +165,9 @@
     <?php $dest = get_field('dest'); ?>
 <section class="dest" id="dest">
     <div class="container-fluid justify-content-center">
-        <img src="<?php echo get_template_directory_uri() . '/assets/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
-        <img src="<?php echo get_template_directory_uri() . '/assets/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
-        <img src="<?php echo get_template_directory_uri() . '/assets/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle-2">
+        <img src="<?php echo get_template_directory_uri() . '/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
+        <img src="<?php echo get_template_directory_uri() . '/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
+        <img src="<?php echo get_template_directory_uri() . '/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle-2">
         <div class="d-flex mx-auto">
             <h1>
                 <?php echo $dest['main_heading']; ?>
@@ -180,7 +180,7 @@
                 </a>
                 <!-- View all -->
                 <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="<?php echo get_template_directory_uri() . '/assets/img/Frame-down.svg'; ?>" alt="arrow-pic" class="frame">
+                    <img src="<?php echo get_template_directory_uri() . '/build/img/Frame-down.svg'; ?>" alt="arrow-pic" class="frame">
                     <span class="visually-hidden">Toggle Dropright</span>
                 </button>
                 <ul class="dropdown-menu">
@@ -234,9 +234,9 @@
     <section class="guides">
     <?php $guides = get_field('guides');?>
       <div class="hello container-fluid">
-        <img src="<?php echo get_template_directory_uri().'/assets/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
-        <img src="<?php echo get_template_directory_uri().'/assets/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-rot-icon">
-        <img src="<?php echo get_template_directory_uri().'/assets/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
+        <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
+        <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-rot-icon">
+        <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
         <div class="row">
 
           <div class="col-lg-6 col-md-12 mx-auto swap-h">
@@ -293,7 +293,7 @@
                   {         
                   ?>
 
-                  <li><img src="<?php echo get_template_directory_uri().'/assets/img/star.svg'; ?>" alt="star-pic" class="star"></li>
+                  <li><img src="<?php echo get_template_directory_uri().'/build/img/star.svg'; ?>" alt="star-pic" class="star"></li>
                        
                   <?php
                   }
@@ -326,8 +326,8 @@
           </div>
 
           <div class="col-lg-6 col-md-12 mx-auto swap-b">
-            <img src="<?php echo get_template_directory_uri().'/assets/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon" width="50px">
-            <img src="<?php echo get_template_directory_uri().'/assets/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle" width="50px">
+            <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon" width="50px">
+            <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle" width="50px">
              
 
             <div class="photo" style="background-image: url('<?php echo $testy['user_image']; ?>');">
@@ -350,9 +350,9 @@
 
     <section class="trending">
       <div class="container-fluid justify-content-center">
-        <img src="<?php echo get_template_directory_uri().'/assets/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
-        <img src="<?php echo get_template_directory_uri().'/assets/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
-        <img src="<?php echo get_template_directory_uri().'/assets/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle-2">
+        <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
+        <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
+        <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle-2">
         <div class="d-flex mx-auto">
           
           <h1>
@@ -370,7 +370,7 @@
                <!-- View all -->
 
                <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-               <img src="<?php echo get_template_directory_uri().'/assets/img/Frame-down.svg'; ?>" alt="arrow-pic" class="frame">
+               <img src="<?php echo get_template_directory_uri().'/build/img/Frame-down.svg'; ?>" alt="arrow-pic" class="frame">
                <span class="visually-hidden">Toggle Dropright</span>
                </button>
                <ul class="dropdown-menu">
@@ -430,7 +430,7 @@
             ?>
 
           <!-- <div class="card col-xl-3 col-lg-3 col-md-6 col-sm-12 p-2 my-4"
-          style="background-image: url('<?php echo get_template_directory_uri()."/assets/img/food.svg"; ?>');">
+          style="background-image: url('<?php echo get_template_directory_uri()."/build/img/food.svg"; ?>');">
             
             <div class="place">
               <h5 class="card-title">The best Kyoto restaurant
@@ -442,7 +442,7 @@
           </div>
 
           <div class="card col-xl-3 col-lg-3 col-md-6 col-sm-12 p-2 my-4"
-          style="background-image: url('<?php echo get_template_directory_uri()."/assets/img/relic.svg"; ?>');">
+          style="background-image: url('<?php echo get_template_directory_uri()."/build/img/relic.svg"; ?>');">
             
             <div class="place">
               <h5 class="card-title">Skip Chichen Itza and head
@@ -455,7 +455,7 @@
           </div>
 
           <div class="card col-xl-3 col-lg-3 col-md-6 col-sm-12 p-2 my-4"
-          style="background-image: url('<?php echo get_template_directory_uri()."/assets/img/wave.svg"; ?>');">
+          style="background-image: url('<?php echo get_template_directory_uri()."/build/img/wave.svg"; ?>');">
             
             <div class="place">
               <h5 class="card-title">Surf’s up at these beginner
