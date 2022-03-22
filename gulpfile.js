@@ -6,6 +6,7 @@ const terser = require('gulp-terser');
 const concat = require('gulp-concat');
 const sourcemaps = require('gulp-sourcemaps');
 const browserSync = require('browser-sync').create();
+var rename = require("gulp-rename");
 var reload = browserSync.reload;
 
 gulp.task('browser-sync', function() {
@@ -27,6 +28,7 @@ gulp.task('styles', function(){
     return gulp.src('./assets/scss/*.scss') // locations of scss files
         .pipe(sass()) // sass compiler
         .pipe(postcss(plugins)) // code gets minified 
+        .pipe(rename("main.min.css")) // renaming folders
         .pipe(gulp.dest('./build/css')) // css files to be compiled
         .pipe(browserSync.stream()); // stream changes to all browser
 });
@@ -40,7 +42,7 @@ gulp.task('images', function() {
 gulp.task('minifyJS', function() {
     return gulp.src('./assets/js/*.js') // locations of scss files
     .pipe(sourcemaps.init())
-    .pipe(concat('all.js'))
+    .pipe(concat('all.min.js'))
     .pipe(terser())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./build/js'))
