@@ -1,7 +1,7 @@
 <?php
 function add_css()
 {
-   wp_register_style('first', get_template_directory_uri() . './assets/build/css/style.css', false,'1.1','all');
+   wp_register_style('first', get_template_directory_uri() . './build/css/style.css', false,'1.1','all');
    wp_register_style('second', '//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css', false,'1.1','all');
    wp_register_style('third', '/resources/demos/style.css', false,'1.1','all');
 
