@@ -180,7 +180,7 @@
                 </a>
                 <!-- View all -->
                 <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="<?php echo get_template_directory_uri() . '/build/img/Frame-down.svg'; ?>" alt="arrow-pic" class="frame">
+                    <img src="<?php echo get_template_directory_uri() . '/build/img/frame-down.svg'; ?>" alt="arrow-pic" class="frame">
                     <span class="visually-hidden">Toggle Dropright</span>
                 </button>
                 <ul class="dropdown-menu">
@@ -370,7 +370,7 @@
                <!-- View all -->
 
                <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-               <img src="<?php echo get_template_directory_uri().'/build/img/Frame-down.svg'; ?>" alt="arrow-pic" class="frame">
+               <img src="<?php echo get_template_directory_uri().'/build/img/frame-down.svg'; ?>" alt="arrow-pic" class="frame">
                <span class="visually-hidden">Toggle Dropright</span>
                </button>
                <ul class="dropdown-menu">
