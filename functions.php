@@ -13,7 +13,7 @@ function add_js()
   wp_register_script('jquery-2', 'https://code.jquery.com/ui/1.13.1/jquery-ui.js', 'jquery', false, true );
   wp_register_script('jquery-3', 'Scripts/jquery-2.1.1.min.js', 'jquery', false, true );
   wp_register_script('jquery-4', 'Scripts/bootstrap.min.js', 'jquery', false, true );
-wp_register_script('my_script', get_template_directory_uri() . '/build/js/all.min.js', 'jquery', false, true);
+wp_register_script('my_script', get_template_directory_uri() . '/build/js/script.min.js', 'jquery', false, true);
 
 
   wp_enqueue_script('Bootstrap-js');

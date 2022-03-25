@@ -42,7 +42,7 @@ gulp.task('images', function() {
 gulp.task('minifyJS', function() {
     return gulp.src('./assets/js/*.js') // locations of scss files
     .pipe(sourcemaps.init())
-    .pipe(concat('all.min.js'))
+    .pipe(concat('script.min.js'))
     .pipe(terser())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./build/js'))
