@@ -47,7 +47,7 @@
                 </div>
 
                 <div class="btn-group two-group">
-                  <select class="form-select btn drop " aria-label="Default select example">
+                  <select class="form-select btn drop" aria-label="Default select example">
                     <option selected>Activity</option>
 
                     <?php
@@ -121,20 +121,12 @@
           </div>
         </div>
     </header>
-    <!-- <script>
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
-  </script> -->
 
 <?php $descrp = get_field('descrp');?>
 <section class="descrp">
       <div class="container-fluid">
         <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
         <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
-
-        <!-- '/assets/img/plus_sign.svg'
-        '/assets/img/green-circle-fade.svg' -->
         <div class="row">
 
           <div class="col-lg-6 col-md-12 mx-auto">
@@ -192,7 +184,7 @@
             </div>
         </div>
 
-        <div class="row d-flex">
+        <div class="row d-flex mx-auto">
           <?php
                $args = array(  
                 'post_type' => 'places',
@@ -207,7 +199,8 @@
             while ( $loop->have_posts() ) : $loop->the_post();  
             $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID));
             ?>
-            <div class="card col-xl-3 col-lg-3 col-md-6 col-sm-12 p-2 my-4" 
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-2 my-4">
+            <div class="card" 
                 style="background-image: url('<?php echo $url; ?>');">
                 <div class="place">
                         <h2>
@@ -222,6 +215,8 @@
                         <!-- Indonesia -->
                     </div>
                 </div>
+            </div>
+            
           <?php  endwhile;
         
             wp_reset_postdata(); 

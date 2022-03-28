@@ -135,158 +135,158 @@
     }
 }
 
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px) {
+// @media only screen 
+//   and (min-device-width: 1024px) 
+//   and (max-device-width: 1366px) {
 
-    .trending {
+//     .trending {
 
-        .container-fluid {
-                text-align: center;
-                padding: 0;
-                align-items: center;
-        }
+//         .container-fluid {
+//                 text-align: center;
+//                 padding: 0;
+//                 align-items: center;
+//         }
 
-        .plus-icon {
-                top: -24.56px;
-                left: -100px;
-        }
+//         .plus-icon {
+//                 top: -24.56px;
+//                 left: -100px;
+//         }
 
-        .green-circle {
-                top: 558px;
-                left: -487px;
-        }
+//         .green-circle {
+//                 top: 558px;
+//                 left: -487px;
+//         }
 
-        .green-circle-2 {
-                top: 805px;
-                left: 270px;
-        }
+//         .green-circle-2 {
+//                 top: 805px;
+//                 left: 270px;
+//         }
 
-        h1 {
-                font-size: 32px;
-                line-height: 30px;
-                padding-left: 10px;
-        }
+//         h1 {
+//                 font-size: 32px;
+//                 line-height: 30px;
+//                 padding-left: 10px;
+//         }
 
-        .view-button {
-                margin-right: 30px;
-                margin-bottom: 20px;
+//         .view-button {
+//                 margin-right: 30px;
+//                 margin-bottom: 20px;
 
-            .view-b {
-                font-size: 16px;
-                line-height: 15px;
-            }
+//             .view-b {
+//                 font-size: 16px;
+//                 line-height: 15px;
+//             }
 
-            img {
-                    height: 21px;
-                    padding-bottom: 11px;
-            }
-        }
+//             img {
+//                     height: 21px;
+//                     padding-bottom: 11px;
+//             }
+//         }
 
-        .card {
-                margin: 0 auto;
-        }
+//         .card {
+//                 margin: 0 auto;
+//         }
 
-        .yoga {
-                margin: 0 auto;
-        }
+//         .yoga {
+//                 margin: 0 auto;
+//         }
 
-        .place {
-                padding: 0 20px;
+//         .place {
+//                 padding: 0 20px;
 
-            h5 {
-                    font-size: 18px;
-                    line-height: 25px;
-            }
+//             h5 {
+//                     font-size: 18px;
+//                     line-height: 25px;
+//             }
 
-            p {
-                    font-size: 14px;
-                    line-height: 20px;
-            }
+//             p {
+//                     font-size: 14px;
+//                     line-height: 20px;
+//             }
 
-            .btn {
-                    font-size: 14px;
-                    margin-left: -7px;
-            }
-        }
-    }
+//             .btn {
+//                     font-size: 14px;
+//                     margin-left: -7px;
+//             }
+//         }
+//     }
 
-  }
+//   }
 
-  @media screen and (max-width: 992px) {
+//   @media screen and (max-width: 992px) {
 
-    .trending {
+//     .trending {
 
-        .container-fluid {
-                .row {
-                    padding-left: 50px;
-                }
-        }
+//         .container-fluid {
+//                 .row {
+//                     padding-left: 50px;
+//                 }
+//         }
 
-        .plus-icon {
-                top: -34px;
-                left: 25px;
-        }
+//         .plus-icon {
+//                 top: -34px;
+//                 left: 25px;
+//         }
 
-        .green-circle {
-                top: 556px;
-                left: -305px;
-        }
+//         .green-circle {
+//                 top: 556px;
+//                 left: -305px;
+//         }
 
-        .green-circle-2 {
-                top: 1070px;
-                left: 209px;
-        }
+//         .green-circle-2 {
+//                 top: 1070px;
+//                 left: 209px;
+//         }
 
-        h1 {
-            @media only screen and (max-width: 992px) {
-                font-size: 30px;
-                line-height: 30px;
-                padding-left: 40px;
-            }
-        }
-    }
-}
+//         h1 {
+//             @media only screen and (max-width: 992px) {
+//                 font-size: 30px;
+//                 line-height: 30px;
+//                 padding-left: 40px;
+//             }
+//         }
+//     }
+// }
 
-@media only screen and (max-width: 600px) {
+// @media only screen and (max-width: 600px) {
 
-    .trending {
+//     .trending {
 
-        .container-fluid {
-            padding-left: 0px;
-            .row {
-                padding-left: 0px;
-            }
-        }
+//         .container-fluid {
+//             padding-left: 0px;
+//             .row {
+//                 padding-left: 0px;
+//             }
+//         }
 
-        .plus-icon {
-                top: -9px;
-                left: 100px;
-        }
+//         .plus-icon {
+//                 top: -9px;
+//                 left: 100px;
+//         }
 
-        .green-circle {
-                top: 555px;
-                left: -159px;
-        }
+//         .green-circle {
+//                 top: 555px;
+//                 left: -159px;
+//         }
 
-        .green-circle-2 {
-                top: 2060px;
-                left: 36px;
-        }
+//         .green-circle-2 {
+//                 top: 2060px;
+//                 left: 36px;
+//         }
 
-        h1 {
-                font-size: 26px;
-                line-height: 30px;
-                margin: auto;
-        }
+//         h1 {
+//                 font-size: 26px;
+//                 line-height: 30px;
+//                 margin: auto;
+//         }
 
-        .view-button {
-                margin-right: 6px;
-                margin: 5px 0;
+//         .view-button {
+//                 margin-right: 6px;
+//                 margin: 5px 0;
 
-            .view-b {
-                    padding: 5px 0px;
-            }
-        }
-    }
-}
+//             .view-b {
+//                     padding: 5px 0px;
+//             }
+//         }
+//     }
+// }
