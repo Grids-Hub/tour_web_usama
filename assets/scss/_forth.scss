@@ -1,48 +1,15 @@
 .guides {
-    padding: 30px 35px;
-
-    @media only screen and (max-width: 1200px) {
-        padding: 30px 20px;
-    }
-
-    @media only screen and (max-width: 600px) {
-        padding: 15px 5px;
-    }
+    padding: 3% 2%;
 
     .row {
         padding: 55px 0;
         text-align: left;
-
-        @media only screen and (max-width: 992px) {
-            text-align: center;
-            padding: 0;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-        }
     }
 
     .guide-traveller {
         margin-left: -50px;
         width: 599px;
         height: 542px;
-
-        @media only screen and (max-width: 1200px) {
-            margin-left: -30px;
-            width: 520px;
-            height: 480px;
-        }
-
-        @media only screen and (max-width: 992px) {
-            width: 450px;
-            height: 407px;
-        }
-
-        @media only screen and (max-width: 600px) {
-            width: 380px;
-            height: 290px;
-            padding: 0 5px;       
-        }
     }
 
     .plus-icon {
@@ -50,21 +17,6 @@
         transform: rotate(16deg);
         top: 500px;
         left: 485px;
-
-        @media only screen and (max-width: 1200px) {
-            top: 430px;
-            left: 390px;
-        }
-
-        @media only screen and (max-width: 992px) {
-            top: 425px;
-            left: 100px;
-          }
-
-        @media only screen and (max-width: 600px) {
-            top: 312px;
-            left: 15px;
-        }
     }
 
     .plus-rot-icon {
@@ -72,42 +24,12 @@
         transform: rotate(7.49deg);
         top: 100px;
         left: 1170px;
-
-        @media only screen and (max-width: 1200px) {
-            top: 120px;
-            left: 940px;
-        }
-
-        @media only screen and (max-width: 992px) {
-            top: 25px;
-            left: 500px;
-          }
-
-        @media only screen and (max-width: 600px) {
-            top: 25px;
-            left: 245px;
-        }
     }
 
     .green-circle {
         position: relative;
         top: 155px;
         left: 65px;
-
-        @media only screen and (max-width: 1200px) {
-            top: 105px;
-            left: 8px;
-        }
-
-        @media only screen and (max-width: 992px) {
-            top: 520px;
-            left: 525px;
-          }
-
-        @media only screen and (max-width: 600px) {
-            top: 380px;
-            left: 50px;
-        }
     }
 
     h1 {
@@ -119,21 +41,6 @@
         line-height: 50px;
 
         padding: 145px 102px 20px 70px;
-
-        @media only screen and (max-width: 1200px) {
-            font-size: 30px;
-            padding: 95px 70px 0px 25px;
-        }
-
-        @media only screen and (max-width: 992px) {
-            font-size: 30px;
-            padding: 55px 70px 0px 50px;
-        }
-
-        @media only screen and (max-width: 600px) {
-            font-size: 28px;
-            padding: 25px 10px 0px 10px;
-        }
     }
 
     p {
@@ -145,22 +52,6 @@
         color: $greypara;
 
         padding: 0 115px 20px 70px;
-
-        @media only screen and (max-width: 1200px) {
-            font-size: 16px;
-            padding: 0 70px 0 25px;
-        }
-
-        @media only screen and (max-width: 992px) {
-            font-size: 15px;
-            padding: 0 110px 0 90px;
-        }
-
-        @media only screen and (max-width: 600px) {
-            padding: 0 15px 0 15px;
-            font-size: 14px;
-            line-height: 25px;
-        }
     }
 
     .btn-exp {
@@ -174,24 +65,6 @@
         padding: 11px 35px;
 
         margin: 5px 50px 20px 70px;
-
-        @media only screen and (max-width: 1200px) {
-            font-size: 15px;
-            margin: 0px 50px 20px 25px;
-            padding: 10px 31px;
-        }
-
-        @media only screen and (max-width: 992px) {
-            font-size: 15px;
-            margin: 0px 50px 20px 30px;
-            padding: 9px 29px;
-        }
-
-        @media only screen and (max-width: 600px) {
-            font-size: 14px;
-            margin: 0px 30px 20px 30px;
-            padding: 8px 27px;
-        }
     }
 
     .btn-exp:hover {
@@ -199,18 +72,155 @@
         color: $goldButton;
         background-color: $white;
     }
-
-    @media screen and (max-width: 992px) {
-        .swap-b {
-        -webkit-box-ordinal-group: 0 !important;
-        -ms-flex-order: -1 !important;
-        order: -1 !important;
-        }
-    
-        .swap-h {
-        -webkit-box-ordinal-group: 7 !important;
-        -ms-flex-order: 6 !important;
-        order: 6 !important;
-        }
-      }
 }
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) {
+
+    .guides {
+
+        .guide-traveller {
+                margin-left: -30px;
+                width: 520px;
+                height: 480px;   
+        }
+
+        .plus-icon {
+                top: 430px;
+                left: 390px;
+        }
+
+        .plus-rot-icon {
+                top: 120px;
+                left: 940px;
+        }
+
+        .green-circle {
+                top: 105px;
+                left: 8px;
+        }
+
+        h1 {
+                font-size: 30px;
+                padding: 95px 70px 0px 25px;
+        }
+
+        p {
+                font-size: 16px;
+                padding: 0 70px 0 25px;
+        }
+
+        .btn-exp {
+                font-size: 15px;
+                margin: 0px 50px 20px 25px;
+                padding: 10px 31px;
+        }
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+
+    .guides {
+
+        .row {
+            text-align: center;
+            padding: 0;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .guide-traveller {
+                width: 450px;
+                height: 407px;   
+        }
+
+        .plus-icon {
+                top: 425px;
+                left: 100px;
+            }
+
+        .plus-rot-icon {
+                top: 25px;
+                left: 500px;
+        }
+
+        .green-circle {
+                top: 520px;
+                left: 525px;
+        }
+
+        h1 {
+                font-size: 30px;
+                padding: 55px 70px 0px 50px;
+        }
+
+        p {
+                font-size: 15px;
+                padding: 0 110px 0 90px;
+        }
+
+        .btn-exp {
+                font-size: 15px;
+                margin: 0px 50px 20px 30px;
+                padding: 9px 29px;
+        }
+
+        .swap-b {
+            -webkit-box-ordinal-group: 0 !important;
+            -ms-flex-order: -1 !important;
+            order: -1 !important;
+        }
+        
+        .swap-h {
+            -webkit-box-ordinal-group: 7 !important;
+            -ms-flex-order: 6 !important;
+            order: 6 !important;
+        }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .guides {
+
+        .guide-traveller {
+                width: 380px;
+                height: 290px;
+                padding: 0 5px;        
+        }
+
+        .plus-icon {
+                top: 312px;
+                left: 15px;
+        }
+
+        .plus-rot-icon {
+                top: 25px;
+                left: 245px;
+        }
+
+        .green-circle {
+                top: 380px;
+                left: 50px;
+        }
+
+        h1 {
+                font-size: 28px;
+                padding: 25px 10px 0px 10px;
+        }
+        
+        p {
+                padding: 0 15px 0 15px;
+                font-size: 14px;
+                line-height: 25px;
+        }
+
+        .btn-exp {
+                font-size: 14px;
+                margin: 0px 30px 20px 30px;
+                padding: 8px 27px;
+        }
+    }
+  }

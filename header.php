@@ -32,14 +32,9 @@
 		html { margin-top: 0px !important; }
 	}
 </style>
-
-   
-  
 </head>
-<body>
 
-  <header>
-  <?php $head = get_field('head'); ?>
+<body>
     <div class="head">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -83,4 +78,3 @@
     </nav>
 
     </div>
-  </header>
