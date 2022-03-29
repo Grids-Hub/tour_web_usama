@@ -6,22 +6,19 @@
     }
 
     .plus-icon {
-        position: relative;
-        top: -34.56px;
-        left: 410px;
+        padding-bottom: 40px;
         transform: rotate(7.49deg);
     }
 
     .green-circle {
+        width: 45px;
         position: relative;
-        top: 395px;
-        left: -100px;
+        top: 0px;
+        left: -30px;
     }
 
     .green-circle-2 {
-        position: relative;
-        top: 601px;
-        left: 700px;
+        padding-top: 40px;
     } 
 
     h1 {
@@ -69,7 +66,7 @@
     .card {
         width: 283px;
         height: 456px;
-        margin: 8px;
+        margin: 0 auto;
         border: none;
         overflow: hidden;
 

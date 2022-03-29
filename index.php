@@ -9,7 +9,7 @@
       <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
 
       <div class="row">
-        <div class="col-xl-5 col-lg-5 col-md-12 head-menu swap-h">
+        <div class="col-xl-5 col-lg-5 col-md-12 head-menu">
           <h1 class="heading-1"><?php echo $head['head_heading']; ?></h1>
 
           <!-- Explore and Travel -->
@@ -112,7 +112,7 @@
 
                   </div>
               </div>
-              <div class="col-xl-7 col-lg-7 col-md-12 swap-b">
+              <div class="col-xl-7 col-lg-7 order-first order-lg-0 col-md-12">
                 <img src="<?php echo $head['traveller']; ?>" alt="traveller-pic" class="img-responsive traveller">
 
                 <!-- get_template_directory_uri().'/assets/img/traveller.svg' -->
@@ -125,9 +125,14 @@
 <?php $descrp = get_field('descrp');?>
 <section class="descrp">
       <div class="container-fluid">
-        <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
-        <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
-        <div class="row">
+
+      <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6"> </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
+          </div>
+        
+          <div class="row">
 
           <div class="col-lg-6 col-md-12 mx-auto">
             <img src="<?php echo $descrp['balloon_traveller']; ?>" alt="balloon-traveller-pic" class="balloon-traveller">
@@ -147,6 +152,11 @@
               Planet Experiences lead the way -->
 
               <button type="button" class="btn btn-exp"><?php echo $descrp['button'];?></button>
+              <div class="row">
+          <div class="col-lg-7 col-md-7 col-sm-7"> </div>
+          <div class="col-lg-5 col-md-5 col-sm-5">
+            <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
+          </div>
 
               <!-- Learn more -->
           </div>
@@ -234,7 +244,7 @@
         <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
         <div class="row">
 
-          <div class="col-lg-6 col-md-12 mx-auto swap-h">
+          <div class="col-lg-6 col-md-12 mx-auto">
             <h1>
             <?php echo $guides['heading']; ?>
             </h1>
@@ -255,7 +265,7 @@
                <!-- Download -->
           </div>
 
-          <div class="col-lg-6 col-md-12 mx-auto swap-b">
+          <div class="col-lg-6 order-first order-lg-0 col-md-12 mx-auto">
             <img src="<?php echo $guides['guide_traveller']; ?>" alt="guide-traveller-pic" class="guide-traveller">
             <!-- '/assets/img/guide-traveller.svg' -->
           </div>
@@ -275,7 +285,7 @@
 
         <div class="row">
 
-          <div class="col-lg-6 col-md-12 mx-auto swap-h">
+          <div class="col-lg-6 col-md-12 mx-auto">
             
 
             <div class="review">
@@ -320,8 +330,7 @@
 
           </div>
 
-          <div class="col-lg-6 col-md-12 mx-auto swap-b">
-            <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon" width="50px">
+          <div class="col-lg-6 order-first order-lg-0 col-md-12 mx-auto">
             <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle" width="50px">
              
 
@@ -335,6 +344,13 @@
               </div>
             </div>
 
+            <div class="row">
+          <div class="col-0 col-md-4 col-sm-8"> </div>
+          <div class="col-lg-12 col-md-8 col-sm-4">
+            <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon" width="50px">
+          </div>
+        </div>
+
           </div>
 
         </div>
@@ -345,9 +361,14 @@
 
     <section class="trending">
       <div class="container-fluid justify-content-center">
-        <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
-        <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
-        <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle-2">
+
+        <div class="row">
+          <div class="col-4"> </div>
+          <div class="col-lg-8">
+            <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
+          </div>
+        </div>
+
         <div class="d-flex mx-auto">
           
           <h1>
@@ -382,8 +403,9 @@
         ?>
 
         <div class="row d-flex">
-
-        <?php
+        <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
+        
+         <?php
         
 
         while ( $front_page_query->have_posts() ) : $front_page_query->the_post();
@@ -464,6 +486,14 @@
 
         </div>
       </div>
+
+      <div class="row">
+          <div class="col-8"> </div>
+          <div class="col-lg-4">
+          <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle-2">
+          </div>
+        </div>
+
     </section>
 
     <button class="back-to-top hidden">
