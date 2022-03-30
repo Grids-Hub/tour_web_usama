@@ -38,15 +38,16 @@
     <div class="head">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
           <a class="navbar-brand mx-auto" href="#">
-            <img src="<?php echo get_template_directory_uri(). '/build/img/logo.svg'; ?>" alt="logo-pic" class="img-responsive logo">
+            <img src="<?php echo get_template_directory_uri(). '/build/img/logo.svg'; ?>" alt="logo-pic" class="img-responsive logo ms-lg-0 ms-5">
 
                   <!--  -->
           </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
           <?php
@@ -54,7 +55,7 @@
             'menu' => 'main-menu',
             'menu_class' => 'navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll',
             'container' => 'ul',
-            'li_class' => 'nav-item',
+            'li_class' => 'nav-item mx-lg-2 mx-auto',
             'a_class' => 'nav-link',
             'acive_class' => 'active'
             ));
