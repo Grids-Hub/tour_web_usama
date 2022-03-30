@@ -8,7 +8,7 @@
 <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
       <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
 
-      <div class="row">
+      <div class="row text-lg-start text-center">
         <div class="col-xl-5 col-lg-5 col-md-12 head-menu">
           <h1 class="heading-1"><?php echo $head['head_heading']; ?></h1>
 
@@ -19,11 +19,11 @@
 
                 <!-- Holiday finder -->
 
-              <hr>
+              <hr class="ms-lg-0 mx-auto">
                 <!-- Example split danger button -->
               <form action="" class="d-flex">
 
-                <div class="btn-group">
+                <div class="ms-lg-0 mx-auto">
                 <select class="form-select btn drop" aria-label="Default select example">
                   <option selected>Location</option>
 
@@ -46,7 +46,7 @@
                 </select>
                 </div>
 
-                <div class="btn-group two-group">
+                <div class="two-group ms-lg-0 mx-auto">
                   <select class="form-select btn drop" aria-label="Default select example">
                     <option selected>Activity</option>
 
@@ -73,7 +73,7 @@
 
               <form action="" class="d-flex">
 
-              <div class="btn-group">
+              <div class="ms-lg-0 mx-auto">
                 <select class="form-select btn drop" aria-label="Default select example">
                     <option selected>Grade</option>
 
@@ -96,7 +96,7 @@
                   </select>
               </div>
                 
-              <div class="btn-group two-group">
+              <div class="two-group ms-lg-0 mx-auto">
                 <div class="input-holder">
                   <input class="btn drop p" placeholder="Date" type="text" id="datepicker">
                   <span class="fa fa-solid fa-chevron-down" id="fa-1"></span> 
@@ -132,7 +132,7 @@
             <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
           </div>
         
-          <div class="row">
+          <div class="row text-lg-start text-center">
 
           <div class="col-lg-6 col-md-12 mx-auto">
             <img src="<?php echo $descrp['balloon_traveller']; ?>" alt="balloon-traveller-pic" class="balloon-traveller">
@@ -169,8 +169,16 @@
     <div class="container-fluid justify-content-center">
         <img src="<?php echo get_template_directory_uri() . '/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
         <img src="<?php echo get_template_directory_uri() . '/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
-        <img src="<?php echo get_template_directory_uri() . '/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle-2">
+        
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-8"> </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <img src="<?php echo get_template_directory_uri() . '/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle-2">
+          </div>
+        </div>
+
         <div class="d-flex mx-auto">
+
             <h1>
                 <?php echo $dest['main_heading']; ?>
             </h1>
@@ -239,12 +247,17 @@
     <section class="guides">
     <?php $guides = get_field('guides');?>
       <div class="hello container-fluid">
-        <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
-        <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-rot-icon">
-        <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
-        <div class="row">
+        <div class="row main-row text-lg-start text-center">
 
           <div class="col-lg-6 col-md-12 mx-auto">
+            
+          <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3"></div>
+          <div class="col-lg-9 col-md-9 col-sm-9">
+            <img src="<?php echo get_template_directory_uri().'/build/img/green-circle-fade.svg'; ?>" alt="green-circle" class="green-circle">
+          </div>
+          </div>  
+
             <h1>
             <?php echo $guides['heading']; ?>
             </h1>
@@ -263,9 +276,25 @@
                </button>
 
                <!-- Download -->
+
+               <div class="row">
+          <div class="col-lg-10 col-md-10 col-sm-10"></div>
+          <div class="col-lg-2 col-md-2 col-sm-2">
+            <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-icon">
+          </div>
+          </div>
+
           </div>
 
           <div class="col-lg-6 order-first order-lg-0 col-md-12 mx-auto">
+
+          <div class="row">
+          <div class="col-lg-11 col-md-11 col-sm-11"></div>
+          <div class="col-lg-1 col-md-1 col-sm-1">
+            <img src="<?php echo get_template_directory_uri().'/build/img/plus_sign.svg'; ?>" alt="plus-icon" class="plus-rot-icon">
+          </div>
+          </div> 
+
             <img src="<?php echo $guides['guide_traveller']; ?>" alt="guide-traveller-pic" class="guide-traveller">
             <!-- '/assets/img/guide-traveller.svg' -->
           </div>
@@ -283,7 +312,7 @@
 
         <!-- Testimonials -->
 
-        <div class="row">
+        <div class="row text-lg-start text-center">
 
           <div class="col-lg-6 col-md-12 mx-auto">
             

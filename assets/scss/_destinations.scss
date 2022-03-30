@@ -11,27 +11,28 @@
 
     .plus-icon {
         position: relative;
+        transform: rotate(7.49deg);
         top: 332px;
-        left: -80px;
+        left: -629px;
     }
 
     .green-circle {
         position: relative;
-        top: -15px;
-        left: -208px;
+        // top: -15px;
+        // left: -208px;
     }
 
     .green-circle-2 {
         position: relative;
-        top: 10%;
-        left: 52%;
+        width: 22px;
+        padding-bottom: 20px;
     } 
 
     h1 {
         font-family: $fontFair;
         font-style: $fontStylenormal;
         font-weight: bold;
-        font-size: 36px;
+        font-size: 2.25rem;
         line-height: 50px;
 
         padding-bottom: 25px;
@@ -47,7 +48,7 @@
             font-family: $fontInter;
             font-style: $fontStylenormal;
             font-weight: 600;
-            font-size: 17px;
+            font-size: 1.063rem;
             line-height: 20px;
 
             color: $goldButton;
@@ -108,7 +109,7 @@
             font-family: $fontInter;
             font-style: $fontStylenormal;
             font-weight: 600;
-            font-size: 17px;
+            font-size: 1.063rem;
             line-height: 10px;
             color: $blackshade;
             padding-top: 11px;
@@ -121,7 +122,7 @@
             font-family: $fontInter;
             font-style: $fontStylenormal;
             font-weight: 300;
-            font-size: 15px;
+            font-size: 0.938rem;
             line-height: 10px;
             color: $greyshade;
             padding-left: 5px;          

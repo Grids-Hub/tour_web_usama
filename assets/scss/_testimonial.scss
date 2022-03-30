@@ -4,7 +4,6 @@
     .row {
         padding: 0;
         text-align: left;
-        padding-left: 50px;
     }
 
     .plus-icon {
@@ -12,22 +11,22 @@
         transform: rotate(7.49deg);
         top: -28px;
         z-index: 2;
+        left: 51px;
     }
 
     .green-circle {
         position: relative;
         top: 31px;
-        left: 370px;
+        left: 420px;
     }
 
     h1 {
         font-family: $fontFair;
         font-style: $fontStylenormal;
         font-weight: bold;
-        font-size: 36px;
+        font-size: 2.25rem;
         color: $black;
         line-height: 50px;
-        padding-left: 55px;
     }
 
     .review {
@@ -54,7 +53,7 @@
         font-family: $fontMullish;
         font-style: $fontStylenormal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 36px;
         padding-bottom: 40px;
         color: $black;
@@ -65,7 +64,7 @@
         font-family: $fontInter;
         font-style: $fontStylenormal;
         font-weight: bolder;
-        font-size: 22px;
+        font-size: 1.375rem;
         line-height: 30px;
     }
 
@@ -73,7 +72,7 @@
         font-family: $fontInter;
         font-style: $fontStylenormal;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 1.125rem;
         line-height: 20px;
     }
 
@@ -111,7 +110,7 @@
                 border: 2px solid $greyborder;
 
                 i {
-                    font-size: 12px;
+                    font-size: 0.75rem;
                     padding: 0 5px;
                     padding-bottom: 8px;
                 }

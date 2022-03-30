@@ -54,33 +54,17 @@ body {
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px) {
 
-    .head {
-
-        .btn-outline,
-        .btn-reg {
-                margin-right: 8px;
-                font-size: 14px;
-        }
-
-        .heading-1 {
-                font-size: 54px;
-        }
-  }
-
   .descrp {
 
     h1 {
-            font-size: 30px;
             padding: 95px 102px 0px 70px;
     }
 
     p {
-            font-size: 16px;
             padding: 0 115px 0 70px;
     }
 
     .btn-exp {
-            font-size: 15px;
             margin: 0px 50px 20px 70px;
             padding: 10px 31px;
     }
@@ -89,7 +73,6 @@ body {
 .dest {
 
   h1 {
-          font-size: 32px;
           line-height: 30px;
           padding-left: 10px;
   }
@@ -98,17 +81,14 @@ body {
 .guides {
 
   h1 {
-          font-size: 30px;
           padding: 95px 70px 0px 25px;
   }
 
   p {
-          font-size: 16px;
           padding: 0 70px 0 25px;
   }
 
   .btn-exp {
-          font-size: 15px;
           margin: 0px 50px 20px 25px;
           padding: 10px 31px;
   }
@@ -119,22 +99,12 @@ body {
   
 
   h1 {
-          font-size: 30px;
           line-height: 30px;
   }
 
   .comment {
-          font-size: 20px;
           padding-right: 40px;
           padding-bottom: 30px;
-  }
-
-  .person {
-          font-size: 20px;
-  }
-
-  .position {
-          font-size: 16px;
   }
 }
 
@@ -154,27 +124,7 @@ body {
             margin-bottom: 10px;
     }
 
-    .row {
-            text-align: center;
-            padding: 0;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-    }
-
     .dropdowns {
-
-            .btn-group {
-                margin: auto;
-            }
-
-            hr {
-                margin: auto;
-            }
-
-            .two-group {
-                margin-left: 0;
-            }
 
             .fa {
                 left: 59px;
@@ -192,26 +142,15 @@ body {
 
 .descrp {
 
-  .row {
-          text-align: center;
-          padding: 0;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-  }
-
   h1 {
-          font-size: 30px;
           padding: 25px 150px 0px 150px;
   }
 
   p {
-          font-size: 15px;
           padding: 0 135px 0 135px;
   }
 
   .btn-exp {
-          font-size: 15px;
           margin: 0px 50px 20px 50px;
           padding: 9px 29px;
   }
@@ -221,46 +160,32 @@ body {
 .dest {
 
   h1 {
-          font-size: 30px;
           line-height: 30px;
           padding-bottom: 0;
+  }
+
+  .plus-icon {
+        left: -210px;
   }
 }
 
 .guides {
 
-  .row {
-      text-align: center;
-      padding: 0;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-  }
-
   h1 {
-          font-size: 30px;
           padding: 55px 70px 0px 50px;
   }
 
   p {
-          font-size: 15px;
           padding: 0 110px 0 90px;
   }
 
   .btn-exp {
-          font-size: 15px;
           margin: 0px 50px 20px 30px;
           padding: 9px 29px;
   }
 }
 
 .testimonial {
-  .row {
-      padding: 0;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-  }
 
   .plus-icon {
         left: -28px;
@@ -283,7 +208,6 @@ body {
   }
 
   .comment {
-      font-size: 18px;
       padding: 0 40px;
       padding-bottom: 10px;
   }
@@ -307,7 +231,6 @@ body {
               margin-left: 5px;
 
               li {
-                  font-size: 10px;
                   padding: 0 3px;
                   padding-bottom: 6px;
               }
@@ -322,18 +245,15 @@ body {
     .descrp {
 
         h1 {
-                font-size: 28px;
                 padding: 5px 20px 0px 20px;
         }
         
         p {
                 padding: 0 15px 0 15px;
-                font-size: 14px;
                 line-height: 25px;
         }
 
         .btn-exp {
-                font-size: 14px;
                 margin: 0px 30px 20px 30px;
                 padding: 8px 27px;
         }
@@ -342,7 +262,6 @@ body {
     .dest {
 
       h1 {
-              font-size: 26px;
               line-height: 30px;
               margin: auto;
       }
@@ -362,18 +281,15 @@ body {
   .guides {
 
     h1 {
-            font-size: 28px;
             padding: 25px 10px 0px 10px;
     }
     
     p {
             padding: 0 15px 0 15px;
-            font-size: 14px;
             line-height: 25px;
     }
 
     .btn-exp {
-            font-size: 14px;
             margin: 0px 30px 20px 30px;
             padding: 8px 27px;
     }
@@ -386,12 +302,9 @@ body {
   }
 
   .green-circle {
-    left: 294px;
+          position: sticky;
+        left: 46%;
     top: 31px;
-  }
-
-  h1 {
-          font-size: 28px;
   }
 
   .star-group {
@@ -403,17 +316,8 @@ body {
   }
 
   .comment {
-          font-size: 16px;
           padding: 0px;
           padding-bottom: 8px;
-  }
-
-  .person {
-          font-size: 18px;
-  }
-
-  .position {
-          font-size: 16px;
   }
 
   .photo {
